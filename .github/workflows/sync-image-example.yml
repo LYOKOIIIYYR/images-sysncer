@@ -27,5 +27,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/rockylinux:9.3 docker://popgenomisc-cn-beijing.cr.volces.com/popgenomics/rockylinux:9.3
+         skopeo copy docker://docker.io/pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel docker://popgenomisc-cn-beijing.cr.volces.com/popgenomics/pytorch:2.5.1-cuda12.4-cudnn9-devel
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
