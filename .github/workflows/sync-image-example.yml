@@ -30,4 +30,4 @@ jobs:
          skopeo copy docker://docker.io/simrub/glimpse:v2.0.0-27-g0919952_20221207 docker://popgenomisc-cn-beijing.cr.volces.com/popgenomics/glimpse:v2.0.0
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
 
-      docker pull simrub/glimpse:v2.0.0-27-g0919952_20221207
+      # docker pull simrub/glimpse:v2.0.0-27-g0919952_20221207
